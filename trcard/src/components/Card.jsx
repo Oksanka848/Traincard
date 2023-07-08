@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './Card.scss';
 
-export default function Tarif(props) {
+export default function Card(props) {
 
   const { price, speed, theme, isFiltr } = props;
   const [isSelected, setIsSelected] = useState(false);
