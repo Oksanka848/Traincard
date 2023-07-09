@@ -1,6 +1,6 @@
 
 import './App.css';
-import Card from './components/Card.jsx';
+import Card from './components/Card';
 import cards from './components/cards.json';
 
 export default function App (){
