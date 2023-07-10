@@ -1,11 +1,11 @@
 
-import './App.css';
+import style from './App.css';
 import Card from './components/Card';
 import cards from './components/cards.json';
 
 export default function App (){
   return ( 
-    <div className={`App`}>
+    <div className={style.App}>
       {
           cards.map((card) =>
             <Card key={card.id} price={card.price} onClick={card.isSelected}
